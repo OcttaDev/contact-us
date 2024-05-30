@@ -32,7 +32,7 @@ export default function Form() {
             description: "Fique alerta, logo entraremos em contato.",
           });
 
-          //reset();
+          reset();
         })
         .catch((error) => {
           toast({
